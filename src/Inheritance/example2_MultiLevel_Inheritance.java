@@ -1,0 +1,15 @@
+package Inheritance;
+
+public class example2_MultiLevel_Inheritance 
+{
+	public static void main(String[] args) 
+	{
+		WhatsAppV4 v4=new WhatsAppV4();
+		v4.sms();
+		v4.audioCalling();
+		v4.videoCalling();
+		v4.status();
+	}
+
+
+}
